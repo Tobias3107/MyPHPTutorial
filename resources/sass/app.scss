@@ -1,0 +1,70 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import "~jquery-ui/themes/base/all.css";
+
+html {
+  float: none;
+}
+
+.navbar-center {
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 23px;
+}
+
+.nav-search {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+.theme-dark {
+  background: #353535;
+  color: white;
+}
+
+.card.theme-dark {
+  background: #383737;
+  border-color: #6b6b6b;
+  text-align: center;
+}
+
+.btn.theme-dark {
+  background: #383737;
+  border-color: #6b6b6b;
+}
+
+.theme-light {
+  background: #ffffff;
+}
+
+
+pre.kurs-code {
+  color: white !important;
+  float: left;
+  border-style: solid;
+  border-color: #6b6b6b;
+  border-width: medium;
+  width: 100%;
+  text-align: left;
+  font-family: monospace, 18px;
+}
+
+.footer {
+  position: absolute;
+  display: block;
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 16px;
+}
