@@ -18,13 +18,13 @@ Route::get('/', 'PagesController@index');
 Route::get('/dokumentation', 'PagesController@dokumentation');
 
 // Kurs
-Route::get('/kurs/', 'PagesController@kurs');
+Route::get('/kurs', 'PagesController@kurs');
 Route::get('/kurs/{kursId}', 'PagesController@kursTab');
 Route::get('/kurs/{kursId}/tab/{order}', 'PagesController@tab');
 Route::get('/kurs/{kursId}/maxtabs', 'PagesController@maxTab');
 
 // Impressum
-Route::get('/impressum/', 'PagesController@impressum');
+Route::get('/impressum', 'PagesController@impressum');
 
 // Admin Control Panel 
 Route::get('/admin', 'AdminController@index');
